@@ -1,0 +1,10 @@
+Le classi che dobbiamo creare sono le seguenti:
+
+- Utente
+- Conto
+
+Note:
+1. Ogni utente può avere uno di ogni tipi di conto
+2. L'utente può cancellare il conto
+3. L'utente può eseguire le principali operazioni (Prelievo, deposito)
+4. L'utente non deve registarsi perché la registrazione viene fatta in sede
