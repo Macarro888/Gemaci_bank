@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        Utente user = new Utente("Paolo", "Carlino", "1234345", "Cicuci", 123);
-        Utente amico = new Utente("Carlo", "Manciari", "1A2B", "Cicuzi", 321);
+        Utente user = new Utente("Paolo", "Carlino", "1234345", "Cicuci", 123); // utente principale
+        Utente amico = new Utente("Carlo", "Manciari", "1A2B", "Cicuzi", 321); // "amico" dell'utente principale
 
         System.out.println("Benvenuto Utente " + user.getNomeUtente() + " in che cosa possiamo aiutarti oggi?");
         Scanner input = new Scanner(System.in);
